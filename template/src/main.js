@@ -6,6 +6,7 @@ import VueRouter from 'vue-router';
 let router = null;
 let instance = null;
 
+// eslint-disable-next-line
 export async function bootstrap() {};
 
 export async function mount({ emitFnc, data }) {
